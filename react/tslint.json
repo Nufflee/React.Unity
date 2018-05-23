@@ -1,0 +1,50 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-eslint-rules"
+  ],
+  "jsRules": {},
+  "rules": {
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-single"],
+    "indent": [true, "spaces", 2],
+    "whitespace": [true, "check-branch"],
+    "trailing-comma": [true, {
+        "singleline": "never",
+        "multiline": "never"
+      }
+    ],
+    "no-empty": false,
+    "no-reference": false,
+    "ordered-imports": false,
+    "no-empty-interface": false,
+    "no-return-await": false,
+    "no-debugger": false,
+    "member-ordering": false,
+    "forin": false,
+    "no-object-literal-type-assertion": false,
+    "no-duplicate-imports": false,
+    "no-shadowed-variable": false,
+    "object-literal-sort-keys": false,
+    "member-access": false,
+    "no-console": false,
+    "comment-format": [true, "check-space"],
+    "no-consecutive-blank-lines": [true, 1],
+    "prefer-conditional-expression": false,
+    "max-line-length": false,
+    "no-trailing-whitespace": false,
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case"],
+    "no-var-requires": false,
+    "interface-over-type-literal": false,
+    "no-namespace": false,
+    "no-internal-module": false,
+    "eofline": false,
+    "prefer-object-spread": true,
+    "object-curly-spacing": [true, "always"],
+    "max-classes-per-file": false,
+    "interface-name": false,
+    "no-submodule-imports": false
+  },
+  "rulesDirectory": []
+}

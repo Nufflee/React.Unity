@@ -1,0 +1,28 @@
+{
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": "lib/src",
+    "allowJs": false,
+    "checkJs": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "jsxFactory": "ReactUnity.createElement",
+    "module": "commonjs",
+    "target": "es2015",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "jsx": "react"
+  }
+}
